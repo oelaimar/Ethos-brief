@@ -1101,9 +1101,9 @@ mark {
 
 .popup{
     /* display: none; */
-    /* display:none; */
-    display: flex;
+    /* opacity: 0; */
     visibility: hidden;
+    display: flex;
     height: 100vh;
     position: fixed;
   
@@ -1112,7 +1112,6 @@ mark {
     align-items: center;
     justify-content: center;
     pointer-events: none;
-    /* opacity: 0; */
     z-index: 1;
 }
 
